@@ -3,6 +3,8 @@ from flask_restful import Api
 from flask_cors import CORS
 from config import Config
 from app.connect.extension.extension import connect_extension
+from app.model.user import UserDB
+from app.model.habit import HabitDB
 
 def create() -> Flask:
     app = Flask(__name__)

@@ -3,8 +3,11 @@ Flask-RESTful
 Flask-SQLAlchemy
 Flask-Migrate
 Flask-JWT-Extended
+Flask-Alembic
+flask_migrate
 flasgger
 marshmallow
 python-dotenv
 flask_cors
 psycopg2-binary
+flask_marshmallow

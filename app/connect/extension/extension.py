@@ -1,11 +1,13 @@
 from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 from flask import Flask
 
 
-client_sql = SQLAlchemy()
-
+db = SQLAlchemy()
+client_alemic = Migrate()
 
 
 
 def connect_extension(app : Flask) -> None:
-    client_sql.init_app(app)
+    db.init_app(app)
+    client_alemic.init_app(app, db)

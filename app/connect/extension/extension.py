@@ -1,6 +1,8 @@
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask import Flask
+from app.model.habit import HabitDB
+from app.model.user import UserDB
 
 
 db = SQLAlchemy()

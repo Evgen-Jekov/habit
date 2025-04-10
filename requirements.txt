@@ -7,3 +7,4 @@ flasgger
 marshmallow
 python-dotenv
 flask_cors
+psycopg2-binary

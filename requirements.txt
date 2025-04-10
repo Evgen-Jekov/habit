@@ -6,3 +6,4 @@ Flask-JWT-Extended
 flasgger
 marshmallow
 python-dotenv
+flask_cors
